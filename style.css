@@ -53,6 +53,29 @@ main {
   margin-right: 50px;
 }
 
+figure {
+  margin-bottom: 40px;
+}
+
+figure img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+
+figcaption {
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  height: 200px;
+  padding-left: 20px;
+  line-height: 50px;
+}
+
 #mission {
   display: flex;
   position: relative;
@@ -81,3 +104,77 @@ main {
 #mission-text h4 {
   padding: 10px;
 }
+
+#featured-tea {
+  display: flex;
+  justify-content: center;
+  flex-basis: 300px;
+}
+
+#location {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: baseline;
+  flex-wrap: wrap;
+  background-image: url("./images/img-locations-background.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  line-height: 65px;
+  text-align: center;
+}
+
+#location h2 {
+  position: relative;
+  top: 80px;
+  text-align: center;
+}
+
+#location-heading {
+  text-align: center;
+  position: relative;
+  top: 100px;
+}
+
+.heading {
+  text-align: center;
+  padding: 30px;
+}
+
+.heading h2 {
+  margin-bottom: 20px;
+}
+
+.tea-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+  flex-wrap: wrap;
+  width: 1000px;
+}
+
+.downtown {
+  width: 300px;
+  background-color: black;
+  margin: 15px 40px;
+  opacity: 1;
+}
+
+.east-bayside {
+  width: 300px;
+  background-color: black;
+  margin: 15px 40px;
+  opacity: 1;
+}
+
+.oakdale {
+  width: 300px;
+  background-color: black;
+  margin: 15px 40px;
+  opacity: 1;
+}
+
